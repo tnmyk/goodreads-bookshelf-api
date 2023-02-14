@@ -29,7 +29,7 @@ interface Image {
   height: string;
 }
 
-export interface Item {
+export interface BaseItem {
   title: string;
   link: string;
   pubDate: string;
@@ -38,16 +38,24 @@ export interface Item {
   guid: string;
   isoDate: string;
 }
+export interface Item extends BaseItem {
+  content: string;
+}
 
-export interface OutputItem extends Item {
+export interface ContentData {
+  // extends Record<string, string | number | string[]> {
   bookLink: string;
   imageLink: string;
   author: string;
-  averageRating: string;
+  name: string;
+  averageRating: number;
   bookPublished: string;
-  rating: number;
-  readAt: string;
+  rating: number | null;
+  readAt: string | null;
   dateAdded: string;
   shelves: string[];
   review: string;
+  [key: string]: any;
 }
+
+export interface ResponseItem extends ContentData, BaseItem {}
