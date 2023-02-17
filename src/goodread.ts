@@ -6,7 +6,7 @@ import {
   Item,
   ResponseItem,
   RSSResponse,
-} from "./types/global";
+} from "./types";
 
 import { camelCase, extractLinks } from "./utils";
 
@@ -55,7 +55,7 @@ const booksParse = (items: Item[]) => {
   return books;
 };
 
-export const getData = async (options: GoodreadOptions) => {
+export const fetchShelve = async (options: GoodreadOptions) => {
   const { username, shelf } = options;
   const parser = new Parser();
 
