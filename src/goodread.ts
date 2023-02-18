@@ -42,15 +42,17 @@ export default class GoodreadsShelve {
 
   private booksParse = (items: Item[]) => {
     const books = items.map((item) => {
-      const content = item.content.split("<br/>\n").map((contentLine) => {
-        return contentLine.trim();
-      });
+      const content = item.content
+        .split("<br/>\n")
+        .map((contentLine: string) => {
+          return contentLine.trim();
+        });
 
       const { bookLink, imageLink } = extractLinks(content[0]);
 
       const object: { [key: string]: any } = {};
 
-      content.splice(1).forEach((detail, i) => {
+      content.splice(1).forEach((detail: string) => {
         if (detail == "") return;
         const [k, v] = detail.split(":").map((s) => s.trim());
         object[camelCase(k)] = v;
