@@ -2,14 +2,14 @@
   "name": "goodreads-bookshelve-api",
   "version": "1.0.0",
   "description": "Unofficial Goodreads API for getting any user's bookshelve details",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "ts-node src/index.ts",
-    "build": "tsc"
+    "build": "tsup"
   },
   "files": [
-    "lib/**/*"
+    "dist/**/*"
   ],
   "keywords": [],
   "author": "tnmyk",
@@ -21,6 +21,7 @@
   "license": "ISC",
   "devDependencies": {
     "ts-node": "^10.9.1",
+    "tsup": "^6.6.3",
     "typescript": "^4.9.4"
   },
   "dependencies": {
