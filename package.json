@@ -36,7 +36,7 @@
     "type": "git",
     "url": "git+https://github.com/tnmyk/goodreads-bookshelf-api"
   },
-  "homepage": "https://github.com/tnmyk/goodreads-shelf-apis#readme",
+  "homepage": "https://github.com/tnmyk/goodreads-bookshelf-api#readme",
   "license": "ISC",
   "devDependencies": {
     "ts-node": "^10.9.1",
