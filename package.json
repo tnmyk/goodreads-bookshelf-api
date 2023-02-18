@@ -11,7 +11,16 @@
   "files": [
     "dist/**/*"
   ],
-  "keywords": [],
+  "keywords": [
+    "goodreads",
+    "api",
+    "bookshelve",
+    "books",
+    "nodejs",
+    "typescript",
+    "javascript",
+    "rss"
+  ],
   "author": "tnmyk",
   "repository": {
     "type": "git",
