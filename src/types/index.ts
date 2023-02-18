@@ -3,7 +3,7 @@ export type GoodreadOptions = {
   shelf: string;
 };
 
-export interface RSSResponse {
+export interface GoodreadsRSSResponse {
   items: Item[];
   feedUrl: string;
   image: Image;

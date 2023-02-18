@@ -1,1 +1,2 @@
-export { fetchShelve } from "./goodread";
+import { GoodreadsShelve } from "./goodread";
+export default GoodreadsShelve;

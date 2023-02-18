@@ -11,6 +11,8 @@ export const extractLinks = (str: string) => {
   const bookLinkMatch = str.match(bookLinkRegex);
   const bookLink = bookLinkMatch ? bookLinkMatch[1] : "";
 
+  const shortenedBookLink = bookLink.split("?")[0];
+
   const imageLinkRegex = /src="([^"]*)"/;
   const imageLinkMatch = str.match(imageLinkRegex);
   const imageLink = (imageLinkMatch ? imageLinkMatch[1] : "").replace(
@@ -18,5 +20,5 @@ export const extractLinks = (str: string) => {
     ""
   );
 
-  return { bookLink, imageLink };
+  return { bookLink: shortenedBookLink, imageLink };
 };
