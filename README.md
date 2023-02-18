@@ -1,37 +1,41 @@
 <h1 align="center" style="font-size: 10rem;">
-Goodreads Bookshelve API 📔📕
+Goodreads Bookshelf API 📔📕
 </h1>
 
-Unofficial Node Goodreads API for getting any user's bookshelve details.
+Unofficial Node Goodreads API for getting any user's bookshelf details.
 
 ## Installation
+
 Using npm:
+
 ```bash
-  npm i goodreads-bookshelve-api
+  npm i goodreads-bookshelf-api
 ```
 
 Using yarn:
+
 ```bash
-  yarn add goodreads-bookshelve-api
+  yarn add goodreads-bookshelf-api
 ```
 
 Using pnpm:
+
 ```bash
-  pnpm i goodreads-bookshelve-api
+  pnpm i goodreads-bookshelf-api
 ```
 
 ## Usage/Examples
 
 ```js
-import GoodreadsShelve from "goodreads-bookshelve-api";
+import GoodreadsShelf from "goodreads-bookshelf-api";
 
-const myReadShelve = new GoodreadsShelve({
+const myReadShelf = new GoodreadsShelf({
   username: "50993735-emma-watson",
   shelf: "read",
 });
 
 try {
-  const data = await myReadShelve.fetch();
+  const data = await myReadShelf.fetch();
   // handle data...
 } catch (e) {
   // handle error...

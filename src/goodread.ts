@@ -10,7 +10,7 @@ import {
 
 import { camelCase, extractLinks } from "./utils";
 
-export default class GoodreadsShelve {
+export default class GoodreadsShelf {
   constructor(private options: GoodreadOptions) {
     this.options = options;
   }
@@ -33,7 +33,7 @@ export default class GoodreadsShelve {
 
         return this.booksParse(feed.items);
       } catch (err: any) {
-        throw new Error("Unable to fetch the shelve " + err.message);
+        throw new Error("Unable to fetch the shelf " + err.message);
       }
     } catch (err) {
       throw err;
