@@ -1,2 +1,2 @@
-import { GoodreadsShelve } from "./goodread";
+import GoodreadsShelve from "./goodread";
 export default GoodreadsShelve;

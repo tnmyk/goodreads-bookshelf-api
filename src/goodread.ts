@@ -10,7 +10,7 @@ import {
 
 import { camelCase, extractLinks } from "./utils";
 
-export class GoodreadsShelve {
+export default class GoodreadsShelve {
   constructor(private options: GoodreadOptions) {
     this.options = options;
   }

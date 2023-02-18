@@ -1,6 +1,6 @@
 {
   "name": "goodreads-bookshelve-api",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Unofficial Goodreads API for getting any user's bookshelve details",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
