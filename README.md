@@ -10,7 +10,13 @@ Goodreads Bookshelf API 📔📕
      <img src="https://img.shields.io/npm/dt/goodreads-bookshelf-api" alt="NPM Downloads" />
   </a>
 </p>
+
 Unofficial Node Goodreads API for getting any user's bookshelf details.
+<br/>
+
+<a href="https://codesandbox.io/p/sandbox/goodreads-bookshelf-api-demo-4hboo4" target="_blank">
+Live demo
+</a>
 
 ## Installation
 
