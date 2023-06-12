@@ -11,7 +11,7 @@ Goodreads Bookshelf API 📔📕
   </a>
 </p>
 
-Unofficial Node Goodreads API for getting any user's bookshelf details.
+Unofficial Node Goodreads API for getting any user's bookshelf details without API keys.
 <br/>
 
 <a href="https://codesandbox.io/p/sandbox/goodreads-bookshelf-api-demo-4hboo4" target="_blank">
