@@ -15,12 +15,13 @@
   ],
   "keywords": [
     "goodreads",
-    "api",
+    "goodreads api",
+    "goodreads node",
+    "goodreads api wrapper",
     "bookshelf",
     "books",
     "nodejs",
     "typescript",
-    "javascript",
     "rss"
   ],
   "exports": {
@@ -34,7 +35,7 @@
   "author": "tnmyk",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tnmyk/goodreads-bookshelf-api"
+    "url": "git+https://github.com/tnmyk/goodreads-bookshelf-api.git"
   },
   "homepage": "https://github.com/tnmyk/goodreads-bookshelf-api#readme",
   "license": "ISC",
